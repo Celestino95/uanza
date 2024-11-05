@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import { IconType } from 'react-icons';
-import { FiHome, FiUser, FiHeart, FiShoppingBag, FiGrid } from 'react-icons/fi';
+import { FiHome, FiUser, FiGrid } from 'react-icons/fi';
 import { Collections } from '@/types';
 import { NavLink } from '@/components';
 import { CollectionsPage } from './CollectionsPage';

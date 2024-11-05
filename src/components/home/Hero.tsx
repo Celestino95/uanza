@@ -1,15 +1,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { FiShoppingCart } from 'react-icons/fi';
 import { useTranslation } from 'next-i18next';
 import { useState } from 'react';
 import { Album } from './Album'; // Componente de imagens
 import { Video } from './Video'; // Componente de vídeos
-import { Header } from '../header/Header';
+
 
 
 export const Hero = () => {
-  const { t } = useTranslation('home');
+  const { } = useTranslation('home');
   const [selectedButton, setSelectedButton] = useState('imagens'); // Estado para o botão selecionado
 
   const handleButtonClick = (buttonName) => {

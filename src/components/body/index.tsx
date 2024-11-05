@@ -1,4 +1,4 @@
-import { Hero, Album,   Video } from "@/components";
+import { Hero} from "@/components";
 
 
 const Body = () => {
