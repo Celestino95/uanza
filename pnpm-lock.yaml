@@ -29,9 +29,6 @@ importers:
       '@popperjs/core':
         specifier: ^2.11.8
         version: 2.11.8
-      '@prisma/client':
-        specifier: ^5.0.0
-        version: 5.0.0(prisma@5.0.0)
       '@radix-ui/react-dropdown-menu':
         specifier: ^2.1.2
         version: 2.1.2(@types/react@18.2.55)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -237,9 +234,6 @@ importers:
       prettier-plugin-tailwindcss:
         specifier: ^0.5.0
         version: 0.5.11(prettier@3.2.5)
-      prisma:
-        specifier: ^5.0.0
-        version: 5.0.0
       start-server-and-test:
         specifier: ^2.0.0
         version: 2.0.0
@@ -8636,7 +8630,8 @@ snapshots:
 
   '@prisma/engines-version@4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584': {}
 
-  '@prisma/engines@5.0.0': {}
+  '@prisma/engines@5.0.0':
+    optional: true
 
   '@radix-ui/primitive@1.1.0': {}
 
@@ -13457,6 +13452,7 @@ snapshots:
   prisma@5.0.0:
     dependencies:
       '@prisma/engines': 5.0.0
+    optional: true
 
   process@0.11.10: {}
 
