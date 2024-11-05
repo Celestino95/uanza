@@ -66,7 +66,7 @@ export const Header = ({ collections }: { collections: Collections }) => {
             <Link href="/">
               <Image
                 priority
-                src="/uanza_post/UANZA LOGO.png"
+                src="/UANZA LOGO.png"
                 alt="logo"
                 width={60}
                 height={60}

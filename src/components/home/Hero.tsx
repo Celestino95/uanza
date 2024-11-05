@@ -73,7 +73,7 @@ export const Hero = () => {
         <div className="flex flex-1 items-end justify-end">
           <Image
             priority
-            src="/uanza_post/UANZA LOGO.png"
+            src="/UANZA LOGO.png"
             alt="hero"
             quality={100}
             width={450}
