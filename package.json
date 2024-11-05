@@ -4,16 +4,16 @@
   "private": true,
   "description": "KARA - Fullstack E-commerce made using NextJS, TypeScript, tRPC, Prisma, NextAuth and styled with Tailwind CSS",
   "author": {
-    "name": "Mehrab Mahmoudpour",
-    "email": "mehrabmpdev@gmail.com"
+    "name": "Celestino Fragoso",
+    "email": "celestinofragoso2018@gmail.com"
   },
   "homepage": "https://uanza.vercel.app/",
   "bugs": {
-    "url": "https://github.com/mehrabmp/kara-shop/issues"
+    "url": "https://github.com/Celestino95/uanza/tree/main/src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mehrabmp/kara-shop.git"
+    "url": "https://github.com/Celestino95/uanza.git"
   },
   "license": "MIT",
   "scripts": {
