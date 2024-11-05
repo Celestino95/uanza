@@ -1,5 +1,5 @@
 {
-  "name": "kara-shop",
+  "name": "Uanza",
   "version": "1.0.0",
   "private": true,
   "description": "KARA - Fullstack E-commerce made using NextJS, TypeScript, tRPC, Prisma, NextAuth and styled with Tailwind CSS",
@@ -7,7 +7,7 @@
     "name": "Mehrab Mahmoudpour",
     "email": "mehrabmpdev@gmail.com"
   },
-  "homepage": "https://karashop.vercel.app/",
+  "homepage": "https://uanza.vercel.app/",
   "bugs": {
     "url": "https://github.com/mehrabmp/kara-shop/issues"
   },
