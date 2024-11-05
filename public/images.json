@@ -1,0 +1,509 @@
+[
+  {
+    "id": "1",
+    "nome" : "Cabra ao ar livre perto do monumento",
+    "tamanho": "1350x1080",
+    "descricao":"Cabra ao ar livre perto do monumento",
+    "tipo": "jpg",
+    "src": "/image/animais/Cabra ao ar livre perto do monumento.jpg",
+    "categoria": "animais",
+    "alt": "Cabra ao ar livre perto do monumento"
+  },
+  {
+      "id": "2",
+      "nome" : "Cabra ao ar livre",
+      "tamanho": "1350x1080",
+      "descricao":"Cabra ao ar livre",
+      "tipo": "jpg",
+      "src": "/image/animais/Cabra ao ar livre.jpg",
+      "categoria": "animais",
+      "alt": "Cabra ao ar livre perto do monumento"
+    },
+    {
+      "id": "3",
+      "nome" : "Cabras ao ar livre",
+      "tamanho": "1080x1350",
+      "descricao":"Cabras ao ar livre pastando",
+      "tipo": "jpg",
+      "src": "/image/animais/Cabras ao ar livre.jpg",
+      "categoria": "animais",
+      "alt": "Cabra ao ar livre perto do monumento"
+    },
+    {
+      "id": "4",
+      "nome" : "Cabras",
+      "tamanho": "1080x1350",
+      "descricao":"Cabras no pasto",
+      "tipo": "jpg",
+      "src": "/image/animais/Cabras.jpg",
+      "categoria": "animais",
+      "alt": "Cabras"
+    },
+    {
+      "id": "5",
+      "nome" : "Passaro Africano Closed",
+      "tamanho": "4608x3072",
+      "descricao":"Passaro Africano",
+      "tipo": "jpg",
+      "src": "/image/animais/Passaro Africano Closed.jpg",
+      "categoria": "animais",
+      "alt": "Passaro Africano Closed"
+    },
+    {
+      "id": "6",
+      "nome" : "Passaro Africano",
+      "tamanho": "4608x3072",
+      "descricao":"pássaro africano ",
+      "tipo": "jpg",
+      "src": "/image/animais/Passaro Africano.jpg",
+      "categoria": "animais",
+      "alt": "Passaro Africano"
+    },
+    {
+      "id": "7",
+      "nome" : "Abobora",
+      "tamanho": "3072x4608",
+      "descricao":"abobora em uma feira de frutas",
+      "tipo": "jpg",
+      "src": "/image/comida_bebida/Abobora.jpg",
+      "categoria": "comida_bebida",
+      "alt": "Abobora"
+    },
+    {
+      "id": "8",
+      "nome" : "Banana Dondi Em Feira de Frutas",
+      "tamanho": "4608x3072",
+      "descricao":"Banana Dondi Em Feira de Frutas",
+      "tipo": "jpg",
+      "src": "/image/comida_bebida/Banana Dondi Em Feira de Frutas.jpg",
+      "categoria": "comida_bebida",
+      "alt": "Banana Dondi Em Feira de Frutas"
+    },
+    {
+      "id": "9",
+      "nome" : "Banana horizontal",
+      "tamanho": "3840x3072",
+      "descricao":"banana madura a venda nas ruas de luanda",
+      "tipo": "jpg",
+      "src": "/image/comida_bebida/Banana horizontal.jpg",
+      "categoria": "comida_bebida",
+      "alt": "Banana horizontal"
+    },
+    {
+      "id": "10",
+      "nome" : "Banana Madura",
+      "tamanho": "3072x4608",
+      "descricao":"Banana Madura",
+      "tipo": "jpg",
+      "src": "/image/comida_bebida/Banana Madura.jpg",
+      "categoria": "comida_bebida",
+      "alt": "Banana Madura"
+    },
+    {
+      "id": "11",
+      "nome" : "Banana",
+      "tamanho": "3072x3840",
+      "descricao":"Banana fruta da terra",
+      "tipo": "jpg",
+      "src": "/image/comida_bebida/Banana.jpg",
+      "categoria": "comida_bebida",
+      "alt": "Banana"
+    },
+    {
+      "id": "12",
+      "nome" : "Batata Doce e Tomate Maduro",
+      "tamanho": "4608x3072",
+      "descricao":"Batata Doce e Tomate Maduro",
+      "tipo": "jpg",
+      "src": "/image/comida_bebida/Batata Doce e Tomate Maduro.jpg",
+      "categoria": "comida_bebida",
+      "alt": "Batata Doce e Tomate Maduro"
+    },
+    {
+      "id": "13",
+      "nome" : "Peixe seco cabuenha",
+      "tamanho": "4272x2848",
+      "descricao":"Peixe seco cabuenha",
+      "tipo": "jpg",
+      "src": "/image/comida_bebida/Peixe seco cabuenha.jpg",
+      "categoria": "comida_bebida",
+      "alt": "Peixe seco cabuenha"
+    },
+    {
+      "id": "14",
+      "nome" : "Peixe seco Bagre Fumado",
+      "tamanho": "4272x2848",
+      "descricao":"Peixe seco Bagre Fumado",
+      "tipo": "jpg",
+      "src": "/image/comida_bebida/Peixe seco Bagre Fumado.jpg",
+      "categoria": "comida_bebida",
+      "alt": "Peixe seco Bagre Fumado"
+    },
+    {
+      "id": "15",
+      "nome" : "Fuba de Milho",
+      "tamanho": "4272x2848",
+      "descricao":"Fuba de Milho a venda no mercado",
+      "tipo": "jpg",
+      "src": "/image/comida_bebida/Fuba de Milho.jpg",
+      "categoria": "comida_bebida",
+      "alt": "Fuba de Milho"
+    },
+    {
+      "id": "16",
+      "nome" : "óleo de Cozinha",
+      "tamanho": "4272x2848",
+      "descricao":"óleo de Cozinha",
+      "tipo": "jpg",
+      "src": "/image/comida_bebida/óleo de Cozinha.jpg",
+      "categoria": "comida_bebida",
+      "alt": "óleo de Cozinha"
+     },
+    {
+      "id": "17",
+      "nome" : "Brita",
+      "tamanho": "4608x3072",
+      "descricao":"Brita",
+      "tipo": "jpg",
+      "src": "/image/textura/Brita.jpg",
+      "categoria": "textura",
+      "alt": "Brita"
+    },
+    {
+      "id": "18",
+      "nome" : "Cascalho",
+      "tamanho": "4608x3072",
+      "descricao":"Cascalho",
+      "tipo": "jpg",
+      "src": "/image/textura/Cascalho.jpg",
+      "categoria": "textura",
+      "alt": "Cascalho"
+    },
+    {
+      "id": "19",
+      "nome" : "Casco de acácia",
+      "tamanho": "4608x3072",
+      "descricao":"Casco de acácia",
+      "tipo": "jpg",
+      "src": "/image/textura/Casco de acácia.jpg",
+      "categoria": "textura",
+      "alt": "Casco de acácia"
+    },
+    {
+      "id": "20",
+      "nome" : "casco de arvore",
+      "tamanho": "4272x2848",
+      "descricao":"casco de arvore",
+      "tipo": "jpg",
+      "src": "/image/textura/casco de arvore.jpg",
+      "categoria": "textura",
+      "alt": "casco de arvore"
+     },
+    {
+      "id": "21",
+      "nome" : "Casco de Palmeira",
+      "tamanho": "4608x3072",
+      "descricao":"Casco de Palmeira",
+      "tipo": "jpg",
+      "src": "/image/textura/Casco de Palmeira.jpg",
+      "categoria": "textura",
+      "alt": "Casco de Palmeira"
+    },
+    {
+      "id": "22",
+      "nome" : "escamas de peixe em estatua",
+      "tamanho": "1572x1048",
+      "descricao":"escamas de peixe em estatua",
+      "tipo": "jpg",
+      "src": "/image/textura/escamas de peixe em estatua.jpg",
+      "categoria": "textura",
+      "alt": "escamas de peixe em estatua"
+    },
+    {
+      "id": "23",
+      "nome" : "Grãos de areia",
+      "tamanho": "1672x1115",
+      "descricao":"Grãos de areia",
+      "tipo": "jpg",
+      "src": "/image/textura/Grãos de areia.jpg",
+      "categoria": "textura",
+      "alt": "Grãos de areia"
+    },
+    {
+      "id": "24",
+      "nome" : "Mesa de Madeira em Perspectiva",
+      "tamanho": "4608x3072",
+      "descricao":"Mesa de Madeira em Perspectiva",
+      "tipo": "jpg",
+      "src": "/image/textura/Mesa de Madeira em Perspectiva.jpg",
+      "categoria": "textura",
+      "alt": "Mesa de Madeira em Perspectiva"
+    },
+    {
+      "id": "25",
+      "nome" : "ondas do mar em estatua",
+      "tamanho": "1372x915",
+      "descricao":"ondas do mar em estatua",
+      "tipo": "jpg",
+      "src": "/image/textura/ondas do mar em estatua.jpg",
+      "categoria": "textura",
+      "alt": "ondas do mar em estatua"
+    },
+    {
+      "id": "26",
+      "nome" : "palha de palmeira",
+      "tamanho": "1572x1048",
+      "descricao":"palha de palmeira",
+      "tipo": "jpg",
+      "src": "/image/textura/palha de palmeira.jpg",
+      "categoria": "textura",
+      "alt": "palha de palmeira"
+    },
+    {
+      "id": "27",
+      "nome" : "palha de palmeira1",
+      "tamanho": "2172x1448",
+      "descricao":"palha de palmeira1",
+      "tipo": "jpg",
+      "src": "/image/textura/palha de palmeira1.jpg",
+      "categoria": "textura",
+      "alt": "palha de palmeira1"
+    },
+    {
+      "id": "28",
+      "nome" : "sementes de coqueiros no chão",
+      "tamanho": "4272x2848",
+      "descricao":"sementes de coqueiros no chão",
+      "tipo": "jpg",
+      "src": "/image/textura/sementes de coqueiros no chão.jpg",
+      "categoria": "textura",
+      "alt": "sementes de coqueiros no chão"
+    },
+    {
+      "id": "29",
+      "nome" : "Tijos quebrados",
+      "tamanho": "4608x3072",
+      "descricao":"Tijos quebrados",
+      "tipo": "jpg",
+      "src": "/image/textura/Tijos quebrados.jpg",
+      "categoria": "textura",
+      "alt": "Tijos quebrados"
+    },
+    {
+      "id": "30",
+      "nome" : "tinta azul na parede de cimento",
+      "tamanho": "1472x981",
+      "descricao":"tinta azul na parede de cimento",
+      "tipo": "jpg",
+      "src": "/image/textura/tinta azul na parede de cimento.jpg",
+      "categoria": "textura",
+      "alt": "tinta azul na parede de cimento"
+    },
+    {
+      "id": "31",
+      "nome" : "Crianças com Emoção",
+      "tamanho": "1350x1080",
+      "descricao":"Crianças com Emoção",
+      "tipo": "jpg",
+      "src": "/image/povo_pessoas/Crianças com Emoção.jpg",
+      "categoria": "povo_pessoas",
+      "alt": "Crianças com Emoção"
+    },
+    {
+      "id": "32",
+      "nome" : "Crianças em excursão escolar",
+      "tamanho": "4272x2848",
+      "descricao":"Crianças em excursão escolar",
+      "tipo": "jpg",
+      "src": "/image/povo_pessoas/Crianças em excursão escolar.jpg",
+      "categoria": "povo_pessoas",
+      "alt": "Crianças em excursão escolar"
+    },
+    {
+      "id": "33",
+      "nome" : "Jovem Na praça observando",
+      "tamanho": "4272x2848",
+      "descricao":"Jovem Na praça observando",
+      "tipo": "jpg",
+      "src": "/image/povo_pessoas/Jovem Na praça observando.jpg",
+      "categoria": "povo_pessoas",
+      "alt": "Jovem Na praça observando"
+    },
+    {
+      "id": "34",
+      "nome" : "Jovem na praça",
+      "tamanho": "1350x1080",
+      "descricao":"Jovem na praça",
+      "tipo": "jpg",
+      "src": "/image/povo_pessoas/Jovem na praça.jpg",
+      "categoria": "povo_pessoas",
+      "alt": "Jovem na praça"
+    },
+    {
+      "id": "35",
+      "nome" : "pessoas entrando no autocarro",
+      "tamanho": "2848x4272",
+      "descricao":"pessoas entrando no autocarro",
+      "tipo": "jpg",
+      "src": "/image/povo_pessoas/pessoas entrando no autocarro.jpg",
+      "categoria": "povo_pessoas",
+      "alt": "pessoas entrando no autocarro"
+    },
+    {
+      "id": "36",
+      "nome" : "Jovem no Autocarro",
+      "tamanho": "1350x1080",
+      "descricao":"Jovem no Autocarro",
+      "tipo": "jpg",
+      "src": "/image/povo_pessoas/Jovem no Autocarro.jpg",
+      "categoria": "povo_pessoas",
+      "alt": "Jovem no Autocarro"
+    },
+    {
+      "id": "37",
+      "nome" : "Meninas partilhando afecto",
+      "tamanho": "1350x1080",
+      "descricao":"Meninas partilhando afecto",
+      "tipo": "jpg",
+      "src": "/image/povo_pessoas/Meninas partilhando afecto.jpg",
+      "categoria": "povo_pessoas",
+      "alt": "Meninas partilhando afecto"
+    },
+    {
+      "id": "38",
+      "nome" : "Moto taxi 1",
+      "tamanho": "4272x2848",
+      "descricao":"Moto taxi 1",
+      "tipo": "jpg",
+      "src": "/image/povo_pessoas/Moto taxi 1.jpg",
+      "categoria": "povo_pessoas",
+      "alt": "Moto taxi 1"
+    },
+    {
+      "id": "39",
+      "nome" : "Zungueira vendendo bolachas",
+      "tamanho": "2848x4272",
+      "descricao":"Zungueira vendendo bolachas",
+      "tipo": "jpg",
+      "src": "/image/povo_pessoas/Zungueira vendendo bolachas.jpg",
+      "categoria": "povo_pessoas",
+      "alt": "Zungueira vendendo bolachas"
+    },
+    {
+      "id": "40",
+      "nome" : "Zungeira vendendo ovo",
+      "tamanho": "2848x4272",
+      "descricao":"Zungeira vendendo ovo",
+      "tipo": "jpg",
+      "src": "/image/povo_pessoas/Zungeira vendendo ovo.jpg",
+      "categoria": "povo_pessoas",
+      "alt": "Zungeira vendendo ovo"
+    },
+    {
+      "id": "41",
+      "nome" : "Zungueira de Banana",
+      "tamanho": "2848x4272",
+      "descricao":"Zungueira de Banana",
+      "tipo": "jpg",
+      "src": "/image/povo_pessoas/Zungueira de Banana.jpg",
+      "categoria": "povo_pessoas",
+      "alt": "Zungueira de Banana"
+    },
+    {
+      "id": "42",
+      "nome" : "Bambú closed",
+      "tamanho": "4608x3072",
+      "descricao":"Bambú planta ornamental",
+      "tipo": "jpg",
+      "src": "/image/plantas_flores/Bambú closed.jpg",
+      "categoria": "plantas_flores",
+      "alt": "Bambú closed"
+    },
+    {
+      "id": "43",
+      "nome" : "Buganvilia 1",
+      "tamanho": "4608x3072",
+      "descricao":"Buganvilia ",
+      "tipo": "jpg",
+      "src": "/image/plantas_flores/Buganvilia 1.jpg",
+      "categoria": "plantas_flores",
+      "alt": "Buganvilia 1"
+    },
+    {
+      "id": "44",
+      "nome" : "Buganvilia laranja",
+      "tamanho": "4608x3072",
+      "descricao":"Buganvilia laranja",
+      "tipo": "jpg",
+      "src": "/image/plantas_flores/Buganvilia laranja.jpg",
+      "categoria": "plantas_flores",
+      "alt": "Buganvilia laranja"
+    },
+    {
+      "id": "45",
+      "nome" : "Imbondeiro",
+      "tamanho": "2848x4272",
+      "descricao":"Imbondeiro",
+      "tipo": "jpg",
+      "src": "/image/plantas_flores/Imbondeiro.jpg",
+      "categoria": "plantas_flores",
+      "alt": "Imbondeiro"
+    },
+    {
+      "id": "46",
+      "nome" : "Erva Daninha",
+      "tamanho": "4608x3072",
+      "descricao":"Erva Daninha",
+      "tipo": "jpg",
+      "src": "/image/plantas_flores/Erva Daninha.jpg",
+      "categoria": "plantas_flores",
+      "alt": "Erva Daninha"
+    },
+    {
+      "id": "47",
+      "nome" : "Buganvilia vermelha",
+      "tamanho": "2848x4272",
+      "descricao":"Buganvilia vermelha",
+      "tipo": "jpg",
+      "src": "/image/plantas_flores/Buganvilia vermelha.jpg",
+      "categoria": "plantas_flores",
+      "alt": "Buganvilia vermelha"
+    },
+    {
+      "id": "48",
+      "nome" : "Cacto",
+      "tamanho": "4608x3072",
+      "descricao":"Cacto",
+      "tipo": "jpg",
+      "src": "/image/plantas_flores/Cacto.jpg",
+      "categoria": "plantas_flores",
+      "alt": "Cacto"
+    },
+    {
+      "id": "49",
+      "nome" : "Espada De São Jorge - Closed",
+      "tamanho": "4608x3072",
+      "descricao":"Espada De São Jorge",
+      "tipo": "jpg",
+      "src": "/image/plantas_flores/Espada De São Jorge - Closed.jpg",
+      "categoria": "plantas_flores",
+      "alt": "Espada De São Jorge - Closed"
+    },
+    {
+      "id": "47",
+      "nome" : "hibisco vermelha",
+      "tamanho": "3072x4608",
+      "descricao":"hibisco vermelha",
+      "tipo": "jpg",
+      "src": "/image/plantas_flores/hibisco vermelha.jpg",
+      "categoria": "plantas_flores",
+      "alt": "hibisco vermelha"
+
+    }
+]
+
+
+
+
+ 
+
