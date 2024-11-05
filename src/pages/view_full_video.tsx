@@ -1,122 +1,82 @@
 import Link from 'next/link';
-import { FaArrowLeft, FaDownload, FaShareAlt } from 'react-icons/fa';
-import { useState } from 'react';
+import { FaArrowLeft, FaDownload } from 'react-icons/fa';
+import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 import { Footer } from '@/components';
-import { Video } from '@/components';
-import { Sliders } from 'lucide-react';
-import Modal_Login from '@/components/modals/login';
-
-const videos = [
-    {
-        url: '',
-        views: '2222',
-        downloads: '666',
-        publicationDate: 'dia 06 de Outubro de 2024',
-        title: 'Vídeo 1',
-    },
-    {
-        url: 'uanza_post/video2.mp4',
-        views: '1500',
-        downloads: '400',
-        publicationDate: 'dia 05 de Outubro de 2024',
-        title: 'Vídeo 2',
-    },
-    {
-        url: 'uanza_post/video3.mp4',
-        views: '3000',
-        downloads: '1200',
-        publicationDate: 'dia 04 de Outubro de 2024',
-        title: 'Vídeo 3',
-    },
-];
 
 const ViewFull = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: true,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />,
+  const router = useRouter();
+  const { id } = router.query;
+  const [video, setVideo] = useState(null);
+
+  useEffect(() => {
+    const fetchVideoById = async () => {
+      if (id) {
+        const response = await fetch('/videos.json');
+        const data = await response.json();
+        const foundVideo = data.find(vid => vid.id === id);
+        setVideo(foundVideo);
+      }
     };
+    fetchVideoById();
+  }, [id]);
 
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = () => setIsModalOpen(true);
-    const closeModal = () => setIsModalOpen(false);
+  const handleDownload = () => {
+    if (video && video.src) {
+      const link = document.createElement('a');
+      link.href = video.src;
+      link.download = 'video.mp4';
+      link.click();
+    }
+  };
 
-    return (
-        <div className="flex flex-col h-screen">
-            <header className="fixed top-0 left-0 right-0 p-4 bg-[#9DD4F0] z-10">
-                <Link href="/" className="flex items-center text-white hover:text-[#fff] transition text-sm md:text-base">
-                    <FaArrowLeft size={20} />
-                    <span className="ml-2">Voltar</span>
-                </Link>
-            </header>
-            <main className="flex flex-col items-center justify-center flex-grow pt-16">
-                <Slider {...settings} className="w-full max-w-2xl">
-                    {videos.map((video, index) => (
-                        <div className="flex flex-col items-center px-4" key={index}>
-                            <video
-                                controls
-                                className="rounded-lg mb-4 w-full max-w-[100%] md:max-w-[100%]"
-                                controlsList="nodownload"
-                                src={video.url}
-                            />
-                            <div className="flex justify-between items-center text-[#9DD4F0] mt-2 text-xs md:text-base">
-                                <div className="flex space-x-6">
-                                    <span>👁️ {video.views} visualizações</span>
-                                    <span>⬇️ {video.downloads} downloads</span>
-                                </div>
-                                <div className="btn-group flex space-x-2 rounded">
-                                    {/*
-                                    <button className="flex items-center text-[#fff] bg-[#9DD4F0] p-2 rounded hover:bg-[#7BB7E5] transition text-xs md:text-base">
-                                        <FaShareAlt className="mr-1" /> Partilhar
-                                    </button> */}
-                                    <button onClick={openModal} className="flex items-center text-[#fff] bg-[#9DD4F0] p-2 rounded hover:bg-[#7BB7E5] transition text-xs md:text-base">
-                                        <FaDownload className="mr-1" /> Download
-                                    </button>
-                                </div>
-                            </div>
-                            <div className="flex flex-col items-start py-4">
-                                <span className="text-[#9DD4F0] text-xs md:text-base">📅 {video.publicationDate}</span>
-                            </div>
-                        </div>
-                    ))}
-                </Slider>
-                <Video />
-                <Modal_Login isOpen={isModalOpen} onClose={closeModal} />
-            </main>
-            <footer className='py-4'>
-                <Footer />
-            </footer>
-        </div>
-    );
-};
+  return (
+    <div className="flex flex-col h-screen">
+      <header className="fixed top-0 left-0 right-0 p-4 bg-[#9DD4F0] z-10">
+        <Link href="/" className="flex items-center text-white hover:text-[#fff] transition text-sm md:text-base">
+          <FaArrowLeft size={20} />
+          <span className="ml-2">Voltar</span>
+        </Link>
+      </header>
 
-// Componente do botão de próximo
-const SampleNextArrow = (props) => {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={`${className} absolute right-0 top-1/2 transform -translate-y-1/2 text-[#fff] bg-[#9DD4F0] rounded-full shadow-lg p-3 hover:bg-[#7BB7E5] transition`}
-            style={{ zIndex: 1, cursor: 'pointer' }}
-            onClick={onClick}
-        />
-    );
-};
+      <main className="flex flex-col items-center justify-center flex-grow pt-16 px-4 sm:px-6 md:px-8 lg:px-16">
+        {video ? (
+          <div className="w-full max-w-2xl mx-auto">
+            <video 
+              src={video.src} 
+              controls 
+              className="rounded-lg mb-4"
+              width={800}
+              height={600}
+              style={{ maxWidth: '100%', height: 'auto' }}
+              controlsList="nodownload"
+            />
+            <div className="flex justify-between items-center text-[#9DD4F0] mt-2 text-xs md:text-base">
+              <div className="flex space-x-6">
+                <span>👁️ 2222 visualizações</span>
+                <span>⬇️ 666 downloads</span>
+              </div>
+              <button 
+                onClick={handleDownload} 
+                className="flex items-center text-[#fff] bg-[#9DD4F0] p-2 rounded hover:bg-[#7BB7E5] transition text-xs md:text-base"
+              >
+                <FaDownload className="mr-1" /> Download
+              </button>
+            </div>
+            <div className="flex flex-col items-start py-4">
+              <span className="text-[#9DD4F0] text-xs md:text-base">📅 Publicado em 06 de Outubro de 2024</span>
+            </div>
+          </div>
+        ) : (
+          <p>Carregando vídeo...</p>
+        )}
+      </main>
 
-// Componente do botão de anterior
-const SamplePrevArrow = (props) => {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={`${className} absolute left-0 top-1/2 transform -translate-y-1/2 text-[#fff] bg-[#9DD4F0] rounded-full shadow-lg p-3 hover:bg-[#7BB7E5] transition`}
-            style={{ zIndex: 1, cursor: 'pointer' }}
-            onClick={onClick}
-        />
-    );
+      <footer className="py-4">
+        <Footer />
+      </footer>
+    </div>
+  );
 };
 
 export default ViewFull;

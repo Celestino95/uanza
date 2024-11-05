@@ -51,7 +51,7 @@ export const Footer = () => {
             <Link href="/">
               <Image
                 priority
-                src="/uanza_post/UANZA LOGO.png"
+                src="/UANZA LOGO.png"
                 alt="kara shop logo"
                 width={100}
                 height={35}
